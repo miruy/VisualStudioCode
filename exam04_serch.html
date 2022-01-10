@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NAVER_serch</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: white;
+      }
+      form ul li {
+        list-style: none;
+        margin: 15px 0;
+        font-size: 14px;
+      }
+      img.relative {
+        position: relative;
+        left: 1;
+      }
+      #serch{
+        border: solid;
+        border-color: hsl(120, 97%, 38%);
+        border-width: 3px;
+        float: left;
+      }
+      #serch.relative{
+        position: relative;
+        top: 7px;
+      }
+      #bt.relative{
+        position: relative;
+        top: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+        <a href="https://www.naver.com/"
+          ><img
+            src="/Users/kim-yurim/Desktop/workspace/vsc/logo/스크린샷 2022-01-10 오후 9.07.27.png"
+            width="240"
+            height="65"
+            style="float: left"
+            class="relative"
+        ></a>
+        <ul>
+            <li>
+                <input type="text" id="serch" style="width: 580px; height: 60px;" class="relative">
+                <button id="bt" class="relative" style="width: 70px; height: 68px; background-color: hsl(120, 97%, 38%); color: white; border:none">검색</button>
+            </li>
+        </ul>
+  </body>
+</html>
