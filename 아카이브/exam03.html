@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>좋아하는 영화 장르</title>
+    <meta charset="utf-8" />
+    <style>
+      ul {
+        list-style-type: none;
+      }
+      body {
+        background-color: #fff;
+      }
+      form ul li {
+        list-style: none;
+        margin: 15px 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <ul>
+        <li>이름 : <input type="text" id="user_name" /></li>
+      </ul>
+
+      <b><h2>좋아하는 장르를 선택하세요</h2></b>
+      <ul>
+        <li>
+          <label>
+            <p>1. 액션<input type="checkbox" id="chk1" /></p>
+          </label>
+          <label>
+            <p>2. 공상과학<input type="checkbox" id="chk2" /></p>
+          </label>
+          <p>3. 스릴러<input type="checkbox" /></p>
+          <input type="submit" value="전송" />
+          <input type="submit" value="초기화" />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
